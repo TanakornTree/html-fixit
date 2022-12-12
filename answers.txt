@@ -1,0 +1,26 @@
+1. What does the `title` tag do?
+render the titile of the webpage
+
+2. What information do images need, and why?
+src => to reference the images shown
+alt => to show keywords when error
+
+3. What's the difference between `head` and `body`?
+
+- head and body are the child element that html can have
+- everything you want it to visible ⇒ put it in the body
+- Head is your metadata ⇒ put everything that do not want to render
+
+4. minimum requirement
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- page content -->
+  </body>
+</html>
